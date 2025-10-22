@@ -70,3 +70,48 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+/* =============================
+   🌗 Dark Mode Styles
+   ============================= */
+
+/* Cuando el body tiene la clase "dark", todo cambia */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: #ffffff;
+}
+
+body.dark a {
+    color: #80cbc4;
+}
+
+body.dark a:hover {
+    color: #b2dfdb;
+}
+
+body.dark table {
+    border-color: #444;
+}
+
+body.dark th {
+    background-color: #00695c;
+}
+
+body.dark tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+body.dark button {
+    background-color: #00695c;
+}
+
+body.dark button:hover {
+    background-color: #009688;
+}
+

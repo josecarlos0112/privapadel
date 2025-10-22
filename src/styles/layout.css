@@ -89,4 +89,88 @@
     .content {
         padding: 15px;
     }
+
+    /* Dark Mode para layout */
+    body.dark .navbar {
+        background-color: #00695c;
+    }
+
+    body.dark .sidebar {
+        background-color: #00332e;
+    }
+
+    body.dark .content {
+        background-color: #181818;
+    }
+
+    /* =============================
+   🎨 Login Page Background + Glass Effect
+   ============================= */
+
+    /* Contenedor general con fondo a pantalla completa */
+    .login-container {
+        background-image: url('../../public/foto.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Caja translúcida con efecto glass */
+    .glass-box {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        padding: 40px;
+        width: 350px;
+        text-align: center;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .glass-box h2 {
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    .glass-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #222;
+    }
+
+    .glass-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: #009688;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .glass-box button:hover {
+        background-color: #00796b;
+    }
+
+    /* Responsive para móviles */
+    @media (max-width: 600px) {
+        .glass-box {
+            width: 90%;
+            padding: 30px;
+        }
+    }
+
 }

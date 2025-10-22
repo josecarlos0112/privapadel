@@ -76,3 +76,21 @@ form button {
 .page p {
     color: #555;
 }
+/* Dark mode para tarjetas, botones y formularios */
+body.dark .card,
+body.dark form {
+    background-color: #242424;
+    color: #ddd;
+    border: 1px solid #333;
+}
+
+body.dark input,
+body.dark select {
+    background-color: #2e2e2e;
+    color: #eee;
+    border: 1px solid #555;
+}
+
+body.dark .whatsapp-btn {
+    background-color: #1ebd5b;
+}
