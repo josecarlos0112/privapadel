@@ -1,0 +1,78 @@
+/* =============================
+   ⚙️ Component Styles - PrivaPadel
+   ============================= */
+
+/* Loader */
+.loader {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #009688;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background-color: #25d366;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5b;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.card h3 {
+    color: #004d40;
+}
+
+/* Formularios */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 5px;
+}
+
+/* Tablas dentro de páginas */
+.page table {
+    margin-top: 15px;
+}
+
+.page h2 {
+    margin-bottom: 10px;
+}
+
+/* NotFound Page */
+.page h2 {
+    font-size: 32px;
+    color: #d32f2f;
+}
+
+.page p {
+    color: #555;
+}
