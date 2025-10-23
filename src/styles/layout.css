@@ -109,7 +109,6 @@
 
     /* Contenedor general con fondo a pantalla completa */
     .login-container {
-        background-image: url('public/foto.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
